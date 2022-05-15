@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pokemonCardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="12dp"
+    app:cardBackgroundColor="@color/fifthColor"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="6dp"
+    app:contentPadding="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp">
+
+        <ImageView
+            android:id="@+id/image_pokemon"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="12dp"
+            tools:background="@color/black" />
+
+        <TextView
+            android:id="@+id/details_pokemon_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/image_pokemon"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@+id/image_pokemon"
+            android:background="@drawable/ic_item_card_background"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:text="Charizard" />
+
+        <TextView
+            android:id="@+id/catch_Date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/details_pokemon_name"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="36dp"
+            android:layout_toEndOf="@+id/image_pokemon"
+            android:textAlignment="center"
+            android:textColor="@color/fourthColor"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            tools:text="16/02/2022" />
+
+        <TextView
+            android:id="@+id/type_pokemon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/catch_Date"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="52dp"
+            android:layout_toEndOf="@+id/image_pokemon"
+            android:background="@drawable/ic_item_card_background"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:text="Grass" />
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

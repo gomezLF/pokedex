@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1066399588623",
+    "project_id": "pokedex-c9a4f",
+    "storage_bucket": "pokedex-c9a4f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1066399588623:android:999e7593a793fa964c5e7a",
+        "android_client_info": {
+          "package_name": "edu.co.icesi.pokedex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1066399588623-bsevkg0aoeig899ps169oic5ukq1u73r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPA0whdFrJY2gOcQ1NwibG5wxGNMD9uXc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1066399588623-bsevkg0aoeig899ps169oic5ukq1u73r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

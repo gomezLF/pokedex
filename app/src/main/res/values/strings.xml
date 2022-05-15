@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Pokedex</string>
+    <string name="login_welcomeMessage">Iniciar sesión</string>
+    <string name="login_username_txt">Nombre de usuario</string>
+    <string name="login_button">Ingresar</string>
+
+
+    <string name="home_searchCatchPokemon_txt">Atrapa un pokémon</string>
+    <string name="home_watchPokemon_button">Ver detalles</string>
+    <string name="home_catchPokemon_button">Capturar</string>
+    <string name="home_mainMessage_label">Mis Pokémons</string>
+    <string name="home_searchPokemon_txt">Busca un pokémon</string>
+    <string name="home_searchPokemon_button">Buscar</string>
+    <string name="home_showAllPokemon_button">Mostrar todos</string>
+
+    <string name="details_life_label">Vida</string>
+    <string name="details_attack_label">Ataque</string>
+    <string name="details_defense_label">Defensa</string>
+    <string name="details_speed_label">Velocidad</string>
+    <string name="details_catch_button">Capturar</string>
+    <string name="details_drop_button">Liberar</string>
+</resources>
